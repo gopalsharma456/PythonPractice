@@ -1,0 +1,6 @@
+# number1 = int(input("enter number1"))
+# number2 = int(input("enter number2"))
+# number3 = int(input("enter number3"))
+# print(f"average of 3 numbers are {(number1+number2+number3) / 3}")
+no1,no2,no3 = input("enter 3 nos.").split(",")
+print(f"average of 3 numbers are {(int(no1)+int(no2)+int(no3)) / 3}")
